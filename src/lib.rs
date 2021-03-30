@@ -1,5 +1,5 @@
-pub mod linked_hash_map;
-pub mod linked_hash_set;
+mod linked_hash_map;
+mod linked_hash_set;
 pub mod lru_cache;
 #[cfg(feature = "serde_impl")]
 pub mod serde;
